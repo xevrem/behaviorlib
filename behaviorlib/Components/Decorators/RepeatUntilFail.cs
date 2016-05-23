@@ -1,13 +1,13 @@
 using System;
-using BehaviorLibrary;
-using BehaviorLibrary.Components;
-using BehaviorLibrary.Components.Composites;
-using BehaviorLibrary.Components.Actions;
-using BehaviorLibrary.Components.Conditionals;
-using BehaviorLibrary.Components.Decorators;
-using BehaviorLibrary.Components.Utility;
+using BehaviorLib;
+using BehaviorLib.Components;
+using BehaviorLib.Components.Composites;
+using BehaviorLib.Components.Actions;
+using BehaviorLib.Components.Conditionals;
+using BehaviorLib.Components.Decorators;
+using BehaviorLib.Components.Utility;
 
-namespace BehaviorLibrary.Components.Decorators
+namespace BehaviorLib.Components.Decorators
 {
     public class RepeatUntilFail : BehaviorComponent
     {

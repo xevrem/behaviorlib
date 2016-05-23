@@ -1,7 +1,7 @@
 using System;
-using BehaviorLibrary.Components;
+using BehaviorLib.Components;
 
-namespace BehaviorLibrary
+namespace BehaviorLib
 {
 	public class StatefulSelector : BehaviorComponent
 	{

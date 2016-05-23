@@ -1,10 +1,10 @@
 using System;
 using CSTester;
 using CSLogging;
-using BehaviorLibrary;
-using BehaviorLibrary.Components;
-using BehaviorLibrary.Components.Composites;
-using BehaviorLibrary.Components.Actions;
+using BehaviorLib;
+using BehaviorLib.Components;
+using BehaviorLib.Components.Composites;
+using BehaviorLib.Components.Actions;
 
 namespace Tests
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BehaviorLibrary.Components.Decorators
+namespace BehaviorLib.Components.Decorators
 {
     public class Inverter : BehaviorComponent
     {

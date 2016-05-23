@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BehaviorLibrary.Components.Composites
+namespace BehaviorLib.Components.Composites
 {
 	public class Selector : BehaviorComponent
     {

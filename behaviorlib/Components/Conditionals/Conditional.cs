@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BehaviorLibrary.Components.Conditionals
+namespace BehaviorLib.Components.Conditionals
 {
     public class Conditional : BehaviorComponent
     {

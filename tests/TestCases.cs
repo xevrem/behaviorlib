@@ -21,9 +21,9 @@
 using System;
 using CSTester;
 using CSLogging;
-using BehaviorLibrary;
-using BehaviorLibrary.Components;
-using BehaviorLibrary.Components.Actions;
+using BehaviorLib;
+using BehaviorLib.Components;
+using BehaviorLib.Components.Actions;
 
 namespace Tests
 {
@@ -40,7 +40,7 @@ namespace Tests
 			_log.setEnableDebug (true);
 			_log.setEnableError (true);
 			_log.setEnableMessage (true);
-			_log.loadLog("","behaviorLibrary.log");
+			_log.loadLog("","BehaviorLib.log");
 			_log.enterScope ("TestCases");
 			_log.logMessage ("----------------- STARTING BEHAVIOR LIBRARY TESTS -----------------");
 		}

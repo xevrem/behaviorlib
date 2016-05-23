@@ -28,10 +28,10 @@ using System.Text;
 using CSTester;
 using CSLogging;
 
-using BehaviorLibrary;
-using BehaviorLibrary.Components;
-using BehaviorLibrary.Components.Utility;
-using BehaviorLibrary.Components.Actions;
+using BehaviorLib;
+using BehaviorLib.Components;
+using BehaviorLib.Components.Utility;
+using BehaviorLib.Components.Actions;
 
 namespace Tests
 {

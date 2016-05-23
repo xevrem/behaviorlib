@@ -8,7 +8,7 @@
     <ProjectGuid>{A7D9F051-A51E-42FF-AD2B-D94DC8A06650}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tests</RootNamespace>
-    <AssemblyName>tests</AssemblyName>
+    <AssemblyName>Tests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,10 +46,4 @@
     <Compile Include="Issue7.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\behaviorlib\behaviorlib.csproj">
-      <Project>{CC824B6F-6145-485F-9604-FB94F0ECACA7}</Project>
-      <Name>behaviorlib</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

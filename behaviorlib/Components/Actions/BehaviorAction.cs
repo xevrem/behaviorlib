@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BehaviorLibrary.Components.Actions
+namespace BehaviorLib.Components.Actions
 {
     public class BehaviorAction : BehaviorComponent
     {

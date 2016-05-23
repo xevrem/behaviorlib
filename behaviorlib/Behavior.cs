@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using BehaviorLibrary.Components;
-using BehaviorLibrary.Components.Composites;
+using BehaviorLib.Components;
+using BehaviorLib.Components.Composites;
 
-namespace BehaviorLibrary
+namespace BehaviorLib
 {
     public enum BehaviorReturnCode
     {
