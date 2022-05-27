@@ -1,6 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
 using BehaviorLib.Components;
 using BehaviorLib.Components.Composites;
 
@@ -21,7 +21,7 @@ namespace BehaviorLib
     public class Behavior
     {
 
-		private BehaviorComponent _Root;
+        private BehaviorComponent _Root;
 
         private BehaviorReturnCode _ReturnCode;
 
@@ -40,9 +40,10 @@ namespace BehaviorLib
             _Root = root;
         }
 
-		public Behavior(BehaviorComponent root){
-			_Root = root;
-		}
+        public Behavior(BehaviorComponent root)
+        {
+            _Root = root;
+        }
 
         /// <summary>
         /// perform the behavior
